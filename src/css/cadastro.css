@@ -19,7 +19,7 @@ section {
 
 .title {
     text-align: center;
-    margin-top: 20px;
+    margin-top: 10px;
     margin-bottom: 10px;
     color: #4a3f22;
 }
@@ -49,10 +49,11 @@ section {
     border: 3px solid #F0CB47;
     border-radius: 10px;
     color: #ffffff;
-    margin: 0 auto;
+    margin-right: 5%;
     cursor: pointer;
     transition: all 0.3s ease 0s;
     font-size: larger;
+    align-self: end;
 }
 
 button:hover {
@@ -67,7 +68,7 @@ label {
     justify-content: space-between;
     margin-top: 2vh;
     margin: auto;
-    padding: 20px;
+    padding: 12px;
     align-items: center;
 }
 

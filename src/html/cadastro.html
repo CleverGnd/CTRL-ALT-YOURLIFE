@@ -6,47 +6,43 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <!-- esse link abaixo é o do css -->
+    <script src="../js/cadastro.js" defer="javascript.js"></script>
+
     <link rel="stylesheet" href="../css/cadastro.css">
 </head>
 
 <body>
     <section>
-        <form class="form-content">
-            <h1 class="title">CADASTRO</h1>
+        <form class="form-content" id="form-register">
+            <h1 class="title">CADASTRO DE PERFIL</h1>
             <label for="name">NOME
-                <input name="name" type="text">
+                <input name="name" id="name" type="text">
             </label>
 
-            <label for="foto">FOTO
-
-                <input name="foto" type="text">
+            <label for="foto">FOTO (usar URL)
+                <input name="foto" id="foto" type="text">
             </label>
 
             <label for="link1">LINK1
-
-                <input name="link1" type="text">
+                <input name="link1" id="link1" type="text">
             </label>
 
             <label for="link2"><span>LINK2</span>
-
-                <input name="link2" type="text">
+                <input name="link2" id="link2" type="text">
             </label>
 
             <label for="link3">LINK3
-
-                <input name="link3" type="text">
+                <input name="link3" id="link3" type="text">
             </label>
 
             <label for="stacks">STACKS
-
-                <input name="stacks" type="text">
+                <input name="stacks" id="stacks" type="text">
             </label>
 
             <label for="descricao"><span>DESCRIÇÂO</span>
-
-                <textarea name="descricao" id="" cols="30" rows="10"></textarea>
+                <textarea name="descricao" id="descricao" cols="30" rows="10"></textarea>
             </label>
-            <button type="button" class="action">Cadastrar</button>
+            <button type="submit" class="action">Salvar perfil</button>
         </form>
     </section>
 </body>

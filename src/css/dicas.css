@@ -54,6 +54,7 @@ h1 {
 h2 {
     font-size: medium;
     margin-bottom: 5%;
+    margin: 0 auto;
 }
 
 p {
