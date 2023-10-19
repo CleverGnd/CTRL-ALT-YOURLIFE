@@ -7,7 +7,9 @@ Plataforma criada por nós, alunos da Prozeducação, para viabilizar a inclusã
 
 Espaço aberto para recrutadores realizar uma busca refinada e de qualidade com os talentos cadastrados em nossa plataforma, viabilizando a inclusão no mercado de trabalho. Também temos conteúdos que irão auxiliar no conhecimento do desenvolvedor.
 
-## Documentação
+## Documentação 
+
+
 
 ## Cores
 
