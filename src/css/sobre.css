@@ -60,6 +60,22 @@ p {
     margin: auto;
 }
 
+.container {
+    background-color: rgba(255, 255, 255, 0.15);
+    box-shadow: 5px 5px 10px 10px rgba(0, 0, 0, 0.295);
+    margin: auto;
+    padding: 4%;
+    width: 85%;
+    border: 2px solid black;
+    border-radius: 4vw;
+    display: flex;
+    flex-direction: column;
+    /* flex-wrap: wrap; */
+    justify-content: space-around;
+    /* align-items: center;  */
+
+}
+
 @media (min-width: 768px)  {
     p {
         font-size: large;
