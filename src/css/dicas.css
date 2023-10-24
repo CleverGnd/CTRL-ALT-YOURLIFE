@@ -52,16 +52,15 @@ h1 {
 }
 
 h2 {
-    font-size: medium;
+    font-size: x-large;
     margin-bottom: 5%;
-    margin: 0 auto;
+    margin: 1 auto;
 }
-
-p {
-    font-size: medium;
+p, li {
+    font-size: large;
     font-style: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande',
         'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-    color: #ffffff;
+    color: white;
     padding-right: 15px;
 }
 

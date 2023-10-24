@@ -33,7 +33,6 @@ section {
     width: 100%;
     height: 100%;
     padding-bottom: 5vh;
-    
 }
 
 .perfil {
@@ -47,8 +46,6 @@ section {
     flex-direction: column;
     flex-wrap: wrap;
     margin-top: 5vh;
-    
-
 }
 
 .contatos-content {
@@ -120,7 +117,7 @@ section {
     }
 }
 
-@media (min-width: 768px)  {
+@media (min-width: 768px) {
     * {
         font-size: large;
     }
@@ -142,14 +139,13 @@ section {
         box-shadow: 5px 5px 10px 10px rgba(0, 0, 0, 0.295);
         margin: 0;
         padding: 4%;
-        width:40%;
-        border: 2px solid rgb(197, 16, 16);
+        width: 40%;
         border-radius: 4vw;
         margin-top: 5vh;
     }
 }
 
-@media (min-width: 1440px)  {
+@media (min-width: 1440px) {
     * {
         font-size: large;
     }
@@ -161,7 +157,6 @@ section {
         height: 100%;
         padding-bottom: 5vh;
         justify-content: space-evenly;
-        
     }
 
     .perfil {
@@ -170,14 +165,13 @@ section {
         box-shadow: 5px 5px 10px 10px rgba(0, 0, 0, 0.295);
         margin: 0;
         padding: 4%;
-        width:30%;
-        border: 2px solid rgb(197, 16, 16);
+        width: 30%;
         border-radius: 4vw;
         margin-top: 5vh;
     }
 }
 
-@media (min-width: 1600px)  {
+@media (min-width: 1600px) {
     * {
         font-size: medium;
     }
@@ -189,7 +183,6 @@ section {
         height: 100%;
         padding-bottom: 5vh;
         justify-content: space-evenly;
-        
     }
 
     .perfil {
@@ -199,11 +192,10 @@ section {
         box-shadow: 5px 5px 10px 10px rgba(0, 0, 0, 0.295);
         margin: 0;
         padding: 2%;
-        width:25%;
+        width: 25%;
         border: 2px solid rgb(0, 0, 0);
         border-radius: 4vw;
         margin-top: 5vh;
-    
     }
     .nome-pessoa {
         font-size: x-large;
