@@ -1,11 +1,60 @@
 * {
-    padding:0;
-    margin:0;
+    
+    padding: 0px;;
+    margin: 22px;;
     vertical-align:baseline;
     list-style:none;
-    border:0;
+    border: 1px;;
     font-family: sans-serif;
+    
 }
+
+body {
+    background: linear-gradient(#917E4E, rgb(255, 241, 202));
+    display: flex;
+    align-items: center;
+    text-align: left;
+    font-size: large;
+    margin: 0;
+    padding:0;
+    height: 100vh;
+}   
+h1, p {
+
+    margin: 5;
+    padding: 5;
+    
+
+}
+.container {
+    background-color: rgba(255, 255, 255, 0.150);
+    box-shadow: 5px 5px 10px 10px rgba(0, 0, 0, 0.295);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border: 2px solid #917E4E;
+    border-radius: 2vw;
+    width: 85%;
+    padding:auto;
+    margin: auto;
+}
+
+@media (min-width: 768px)  {
+    p {
+        font-size: large;
+    }
+}
+
+@media (min-width: 1440px)  {
+    p {
+        font-size: x-large;
+    }
+    h2 {
+        font-size: xx-large;
+    }
+}
+
 /* esse codi acima zera todo o Css */
 
 
@@ -31,62 +80,3 @@
 .curved-div svg {
     display: block;
 } */
-
-body {
-    background: linear-gradient(#917E4E, rgb(255, 241, 202));
-    display: flex;
-    align-items: center;
-    text-align: justify;
-    font-size: medium;
-    height: 100vh;
-}   
-h2 {
-    margin-bottom: 3vh;
-}
-p {
-    margin-top: 2vh;
-}
-.content {
-    background-color: rgba(255, 255, 255, 0.150);
-    box-shadow: 5px 5px 10px 10px rgba(0, 0, 0, 0.295);
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    border: 2px solid #917E4E;
-    border-radius: 2vw;
-    width: 85%;
-    padding: 4%;
-    margin: auto;
-}
-
-.container {
-    background-color: rgba(255, 255, 255, 0.15);
-    box-shadow: 5px 5px 10px 10px rgba(0, 0, 0, 0.295);
-    margin: auto;
-    padding: 4%;
-    width: 85%;
-    border: 2px solid black;
-    border-radius: 4vw;
-    display: flex;
-    flex-direction: column;
-    /* flex-wrap: wrap; */
-    justify-content: space-around;
-    /* align-items: center;  */
-
-}
-
-@media (min-width: 768px)  {
-    p {
-        font-size: large;
-    }
-}
-
-@media (min-width: 1440px)  {
-    p {
-        font-size: x-large;
-    }
-    h2 {
-        font-size: xx-large;
-    }
-}

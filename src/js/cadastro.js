@@ -1,3 +1,5 @@
+
+
 function clearFields(formFields) {
   for (var i = 0; i < formFields.length; i++) {
     const field = document.getElementById(formFields[i]);
@@ -5,11 +7,14 @@ function clearFields(formFields) {
   }
 }
 
+
 document.getElementById('form-register').addEventListener('submit', function(event) {
   event.preventDefault();
 
-  const formFields = ['name', 'foto', 'link1', 'link2', 'link3', 'stacks', 'descricao'];
+  const formFields = ['nome', 'foto', 'linkedin', 'github', 'email', 'stacks', 'descricao'];
 
+
+  const obj = {}
   for (var i = 0; i < formFields.length; i++) {
     const field = document.getElementById(formFields[i]);
     if (field.value === '') {
@@ -17,8 +22,11 @@ document.getElementById('form-register').addEventListener('submit', function(eve
       field.focus();
       return;
     } 
+    obj[formFields[i]] = field.value; 
   }
-
+  console.log(PERFILS_DB);
+  // salvarDados(obj);
   alert('Formulário salvo com sucesso!');
   clearFields(formFields);
+  
 });

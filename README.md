@@ -1,6 +1,24 @@
 
 # CTRL+ALT+YOURLIFE
 
+```
+Sistema foi atualizido para uso com Docker e Banco de dados.
+execute os seguintes comandos:
+
+# instalar as dependencias
+ npm install
+
+#executar o container 
+ docker compose up -d
+
+apos executar esse comando pode ecessar normalmente a url:
+http://0.0.0.0:3001/
+
+#Esse comando é para derrubar os containers
+ docker compose down
+
+
+```
 Sobre
 
 Plataforma criada por nós, alunos da Prozeducação, para viabilizar a inclusão de novos talentos na área de desenvolvimento.

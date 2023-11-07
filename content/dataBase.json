@@ -1,0 +1,19 @@
+{
+    "PERFILS_DB": [
+            {
+            "nome": "Cleverson Guandalin",
+            "linkdin": "https://www.linkedin.com/in/cleversonguandalin/",
+            "github": "https://github.com/CleverGnd",
+            "email": "cleversongnd@gmail.com",
+            "descricao": "Sou Cleverson, um engenheiro mecânico que se apaixonou pelo desenvolvimento de software. Tenho conhecimentos em JavaScript, Python, SQL e AWS, e estou sempre me atualizando em novas tecnologias. Estudo Back-end e tenho uma especialização em Engenharia de Dados. Meu objetivo é ser um Desenvolvedor Back-end que cria soluções escaláveis e eficientes para os negócios. Adoro desafios e projetos que usam a tecnologia para melhorar o mundo.",
+            "stacks": [
+                    "JavaScript",
+                    "HTML",
+                    "CSS",
+                    "Python"
+                ],
+            "image": "../img/cleverson.jpg"
+            }
+           
+        ]
+    }
